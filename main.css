@@ -58,7 +58,6 @@ body {
   /* header color here! */
   height: 150px;
   /* this is only for a background image! */
-
   --background-image: var(--header-image);
   background-size: 100%;
 }
@@ -69,7 +68,7 @@ body {
   background-color: #000000;
   /* navbar color */
   width: 100%;
-  border: dashed 1px gray;
+  border: solid 1px rgb(255, 255, 255);
   padding: 0px;
   display: inline-block;
 }
@@ -88,7 +87,7 @@ body {
 
 /* navigation links*/
 #navbar li a {
-  color: gray;
+  color: rgb(255, 255, 255);
   /* navbar text color */
   font-weight: 800;
   text-decoration: none;
@@ -97,8 +96,7 @@ body {
 
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
-  color: #ffffff;
-  text-decoration: underline;
+  color: #8f8f8f;
 }
 
 #flex {
