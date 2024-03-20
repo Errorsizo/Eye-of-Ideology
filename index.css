@@ -58,6 +58,19 @@ a:hover{
     text-decoration: none;
 }
 
+.container {
+    align-self: center;
+    
+    }
+  
+  .child {
+    background-color: grey;
+    color: black;
+    font-family: "Lucida Console";
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    }
 
 #ascii {
     white-space: pre-wrap;
