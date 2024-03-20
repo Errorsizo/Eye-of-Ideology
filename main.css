@@ -19,6 +19,12 @@
    font-display: swap;
 }
 
+@font-face {
+  font-family: 'ideology';
+  src: url('fonts/Ideology22.woff') format('woff');
+}
+
+
 body {
   background-color: #000000;
   font-family: 'DungGeunMo';
@@ -150,7 +156,17 @@ footer {
   /* this centers the footer text */
 }
 
-h1,
+h1 {
+  font-family: 'ideology';
+  font-size: 16px;
+  font-style: normal;
+        font-weight: 400;
+  -webkit-font-smoothing : none;
+  margin: 0;
+  color: #ffffff;
+  -webkit-font-smoothing : none;
+}
+
 h2,
 h3 {
   font-family: 'DungGeunMo';
