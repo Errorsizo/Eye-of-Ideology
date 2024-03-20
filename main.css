@@ -1,255 +1,250 @@
+ /* user styles */
 
-            /* user styles */
+ :root {
+    --header-image: url('bflag.png');
 
-            :root {
-                --header-image: url('bflag.png');
-                --body-bg-image: url('https://sadhost.neocities.org/images/tiles/num.gif');
+    /* colors */
+    --content: #000000;
+}
 
-                /* colors */
-                --content: #43256E;
-            }
+ @font-face {
+    font-family: ATI;
+    src: url('/ATI.woff') format('woff');
 
-             @font-face {
-                font-family: ATI;
-                src: url('/ATI.woff') format('woff');
+}
 
-            }
+@font-face {
+    font-family: DOS;
+    src: url('/DOS.woff') format('woff');
+    font-style: normal;
+          font-weight: 400;
+          
+}
 
-            @font-face {
-                font-family: DOS;
-                src: url('/DOS.woff') format('woff');
-                font-style: normal;
-			          font-weight: 400;
-			          
-            }
+@font-face {
+    font-family: ATI;
+    src: url('/ATI.woff') format('woff');
+    font-style: italic;
 
-            @font-face {
-                font-family: ATI;
-                src: url('/ATI.woff') format('woff');
-                font-style: italic;
+}
 
-            }
+@font-face {
+    font-family: ATI;
+    src: url('/ATI.woff') format('woff');
+    font-style: italic;
+    
 
-            @font-face {
-                font-family: ATI;
-                src: url('/ATI.woff') format('woff');
-                font-style: italic;
-                
+}
 
-            }
+body {
+    background-color: #000000;
+    font-family: 'ATI', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+          font-weight: 400;
+    -webkit-font-smoothing : none;
+    margin: 0;
+    /* you can delete the line below if you'd prefer to not use an image */
+    color: #dedede;
+}
 
-            body {
-                font-family: 'ATI', sans-serif;
-                font-size: 16px;
-                font-style: normal;
-			          font-weight: 400;
-                font-smooth: never;
-                -webkit-font-smoothing : none;
-                margin: 0;
-                background-color: #FFFFFF;
-                /* you can delete the line below if you'd prefer to not use an image */
-                background-size: 65px;
-                color: #dedede;
-                background-image: var(--body-bg-image);
-            }
+* {
+    box-sizing: border-box;
+}
 
-            * {
-                box-sizing: border-box;
-            }
+/* below this line is CSS for the layout */
 
-            /* below this line is CSS for the layout */
+#container {
+    max-width: 900px;
+    /* this is the width of your layout! */
 
-            #container {
-                max-width: 900px;
-                /* this is the width of your layout! */
+    margin: 0 auto;
+    /* this centers the entire page */
+}
 
-                margin: 0 auto;
-                /* this centers the entire page */
-            }
+/* the area below is for all links */
 
-            /* the area below is for all links */
-            
-            #container a {
-                color: #24de10;
-                
-            }
+#container a {
+    color: #24de10;
+    
+}
 
-            #header {
-                width: 100%;
-                background-color: #000000;
-                /* header color here! */
-                height: 150px;
-                /* this is only for a background image! */
+#header {
+    width: 100%;
+    background-color: #000000;
+    /* header color here! */
+    height: 150px;
+    /* this is only for a background image! */
 
-                --background-image: var(--header-image);
-                background-size: 100%;
-            }
+    --background-image: var(--header-image);
+    background-size: 100%;
+}
 
-            /* navigation section!! */
-            #navbar {
-                height: 40px;
-                background-color: #000000;
-                /* navbar color */
-                width: 100%;
-                border: dashed 1px gray;
-                padding: 0px;
-                display: inline-block;
-            }
+/* navigation section!! */
+#navbar {
+    height: 40px;
+    background-color: #000000;
+    /* navbar color */
+    width: 100%;
+    border: dashed 1px gray;
+    padding: 0px;
+    display: inline-block;
+}
 
-            #navbar ul {
-                display: flex;
-                padding: 0;
-                margin: 0;
-                list-style-type: none;
-                justify-content: space-evenly;
-            }
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
 
-            #navbar li {
-                padding-top: 10px;
-            }
+#navbar li {
+    padding-top: 10px;
+}
 
-            /* navigation links*/
-            #navbar li a {
-                color: gray;
-                /* navbar text color */
-                font-weight: 800;
-                text-decoration: none;
-                /* this removes the underline */
-            }
+/* navigation links*/
+#navbar li a {
+    color: gray;
+    /* navbar text color */
+    font-weight: 800;
+    text-decoration: none;
+    /* this removes the underline */
+}
 
-            /* navigation link when a link is hovered over */
-            #navbar li a:hover {
-                color: #24de10;
-                text-decoration: underline;
-            }
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
+    color: #24de10;
+    text-decoration: underline;
+}
 
-            #flex {
-                display: flex;
-            }
+#flex {
+    display: flex;
+}
 
-            /* this colors BOTH sidebars */
-            
-            aside {
-                background-color: #141414;
-                width: 200px;
-                padding: 20px;
-                border-left: dashed 1px gray;
-                border-right: dashed 1px gray;
-                border-bottom: dashed 1px gray;
-                padding: 10px;
-                display: inline-block;
-                
-            }
+/* this colors BOTH sidebars */
+
+aside {
+    background-color: #141414;
+    width: 200px;
+    padding: 20px;
+    border-left: dashed 1px gray;
+    border-right: dashed 1px gray;
+    border-bottom: dashed 1px gray;
+    padding: 10px;
+    display: inline-block;
+    
+}
 
 
-            /* this is the color of the main content area,
-    between the sidebars! */
-            main {
-                background-color: #141414;
-                flex: 1;
-                padding: 20px;
-                order: 2;
-                border-right: dashed 1px gray;
-                border-bottom: dashed 1px gray;
-            }
+/* this is the color of the main content area,
+between the sidebars! */
+main {
+    background-color: #141414;
+    flex: 1;
+    padding: 20px;
+    order: 2;
+    border-right: dashed 1px gray;
+    border-bottom: dashed 1px gray;
+}
 
-            /* what's this "order" stuff about??*/
+/* what's this "order" stuff about??*/
 
-            */ #leftSidebar {
-                order: 1;
-            }
+*/ #leftSidebar {
+    order: 1;
+}
 
-            #rightSidebar {
-                order: 3;
-            }
+#rightSidebar {
+    order: 3;
+}
 
-            footer {
-                background-color: #000000;
-                /* background color for footer */
-                width: 100%;
-                height: 40px;
-                padding: 10px;
-                text-align: center;
-                /* this centers the footer text */
-            }
+footer {
+    background-color: #000000;
+    /* background color for footer */
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    /* this centers the footer text */
+}
 
-            h1,
-            h2,
-            h3 {
-                font-family: 'ATI', sans-serif;
-                font-size: 16px;
-                font-style: normal;
-			          font-weight: 400;
-                font-smooth: never;
-                -webkit-font-smoothing : none;
-                margin: 0;
-                color: #24de10;
-                font-smooth: never;
-                -webkit-font-smoothing : none;
-            }
+h1,
+h2,
+h3 {
+    font-family: 'ATI', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+          font-weight: 400;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+    margin: 0;
+    color: #24de10;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
 
-            h1 {
-                font-family: 'ATI', sans-serif;
-                font-size: 16px;
-                font-style: normal;
-			          font-weight: 400;
-                font-smooth: never;
-                -webkit-font-smoothing : none;
-                margin: 0;
-                font-size: 25px;
-                font-family: 'ATI', sans-serif;
-                font-smooth: never;
-                -webkit-font-smoothing : none;
-            }
+h1 {
+    font-family: 'ATI', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+          font-weight: 400;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'ATI', sans-serif;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
 
-            strong {
-                /* this styles bold text */
-                color: #24de10;
-            }
+strong {
+    /* this styles bold text */
+    color: #24de10;
+}
 
-            /* this is just a cool box */
-            .box {
-                background-color: #000000;
-                border: 1px dashed gray;
-                padding: 10px;
-                text-align: center;
-            }
+/* this is just a cool box */
+.box {
+    background-color: #000000;
+    border: 1px dashed gray;
+    padding: 10px;
+    text-align: center;
+}
 
-            /* CSS for extras */
+/* CSS for extras */
 
-            #topBar {
-                width: 100%;
-                height: 30px;
-                padding: 10px;
-                background-color: #000000;
-            }
-
-
-            /* BELOW THIS POINT IS MEDIA QUERY */
+#topBar {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    background-color: #000000;
+}
 
 
-            @media only screen and (max-width: 800px) {
-                #flex {
-                    flex-wrap: wrap;
-                }
+/* BELOW THIS POINT IS MEDIA QUERY */
 
-                aside {
-                    width: 100%;
-                }
 
-                main {
-                    order: 1;
-                }
+@media only screen and (max-width: 800px) {
+    #flex {
+        flex-wrap: wrap;
+    }
 
-                #leftSidebar {
-                    order: 2;
-                }
+    aside {
+        width: 100%;
+    }
 
-                #rightSidebar {
-                    order: 3;
-                }
+    main {
+        order: 1;
+    }
 
-                #navbar ul {
-                    flex-wrap: wrap;
-                }
-            }
+    #leftSidebar {
+        order: 2;
+    }
+
+    #rightSidebar {
+        order: 3;
+    }
+
+    #navbar ul {
+        flex-wrap: wrap;
+    }
+}
