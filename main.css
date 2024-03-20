@@ -109,9 +109,9 @@ aside {
   background-color: #141414;
   width: 200px;
   padding: 20px;
-  border-left: dashed 1px gray;
-  border-right: dashed 1px gray;
-  border-bottom: dashed 1px gray;
+  border-left: solid 1px rgb(255, 255, 255);
+  border-right: solid 1px rgb(255, 255, 255);
+  border-bottom: solid 1px rgb(255, 255, 255);
   padding: 10px;
   display: inline-block;
   
@@ -125,8 +125,8 @@ main {
   flex: 1;
   padding: 20px;
   order: 2;
-  border-right: dashed 1px gray;
-  border-bottom: dashed 1px gray;
+  border-right: solid 1px rgb(255, 255, 255);
+  border-bottom: solid 1px rgb(255, 255, 255);
 }
 
 /* what's this "order" stuff about??*/
