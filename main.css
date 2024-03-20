@@ -48,7 +48,7 @@ body {
 /* the area below is for all links */
 
 #container a {
-   color: #24de10;
+   color: #ffffff;
    
 }
 
@@ -97,7 +97,7 @@ body {
 
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
-   color: #24de10;
+   color: #ffffff;
    text-decoration: underline;
 }
 
@@ -158,11 +158,9 @@ h3 {
    font-size: 16px;
    font-style: normal;
          font-weight: 400;
-   font-smooth: never;
    -webkit-font-smoothing : none;
    margin: 0;
-   color: #24de10;
-   font-smooth: never;
+   color: #ffffff;
    -webkit-font-smoothing : none;
 }
 
@@ -171,18 +169,16 @@ h1 {
    font-size: 16px;
    font-style: normal;
          font-weight: 400;
-   font-smooth: never;
    -webkit-font-smoothing : none;
    margin: 0;
    font-size: 25px;
    font-family: 'DungGeunMo';
-   font-smooth: never;
    -webkit-font-smoothing : none;
 }
 
 strong {
    /* this styles bold text */
-   color: #24de10;
+   color: #ffffff;
 }
 
 /* this is just a cool box */
