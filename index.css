@@ -4,7 +4,7 @@ body{
     padding: 1em 0 1em 0;
 }
 pre {
-    font-family: "gohu", "Lucida Console", monospace, Monaco;
+    font-family: "DungGeunMo", "Lucida Console", monospace, Monaco;
     color: white;
     font-size: 1rem;
     line-height: 1.2;
@@ -16,7 +16,7 @@ pre {
     display: flex;
     justify-content: center;
 }
-@font-face { font-family: "gohu"; src: url("../assets/gohu.woff"); }
+@font-face { font-family: 'DungGeunMo'; src: url('https://webfontworld.github.io/DungGeunMo/DungGeunMo.css'); }
 
 a{
     color:white;
