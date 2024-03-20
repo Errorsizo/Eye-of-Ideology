@@ -182,7 +182,7 @@ strong {
 /* this is just a cool box */
 .box {
   background-color: #000000;
-  border: 1px dashed gray;
+  border: solid 1px rgb(255, 255, 255);
   padding: 10px;
   text-align: center;
 }
