@@ -28,6 +28,14 @@ pre {
     font-display: swap;
 }
 
+::selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
+::-moz-selection {
+  background-color: rgb(255, 255, 255); color: #000000;
+}
+
 a{
     color:white;
     text-decoration: none;
