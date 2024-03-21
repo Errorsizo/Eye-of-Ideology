@@ -37,16 +37,16 @@ body {
   color: #dedede;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 ::selection {
   background-color: rgb(255, 255, 255); color: #000000;
 }
 
 ::-moz-selection {
   background-color: rgb(255, 255, 255); color: #000000;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* below this line is CSS for the layout */
