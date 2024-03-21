@@ -32,7 +32,6 @@
     color: white;
     background-color: #000000;
     overflow: auto;
-    text-align: left;
 }
 
 pre {text-align:center;font-size: 1vw;}
