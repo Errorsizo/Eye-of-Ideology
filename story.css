@@ -30,9 +30,10 @@ body {
   font-family: 'DungGeunMo';
   font-size: 16px;
   font-style: normal;
-        font-weight: 400;
+  font-weight: 400;
   -webkit-font-smoothing : none;
   margin: 0;
+  text-align: center;
   /* you can delete the line below if you'd prefer to not use an image */
   color: #dedede;
 }
@@ -128,7 +129,6 @@ aside {
   border-bottom: solid 1px rgb(255, 255, 255);
   padding: 10px;
   display: inline-block;
-  
 }
 
 
@@ -172,6 +172,7 @@ h1 {
   -webkit-font-smoothing : none;
   margin: 0;
   color: #ffffff;
+  text-align: center;
   -webkit-font-smoothing : none;
 }
 
@@ -184,18 +185,7 @@ h3 {
   -webkit-font-smoothing : none;
   margin: 0;
   color: #ffffff;
-  -webkit-font-smoothing : none;
-}
-
-h1 {
-  font-family: 'DungGeunMo';
-  font-size: 16px;
-  font-style: normal;
-        font-weight: 400;
-  -webkit-font-smoothing : none;
-  margin: 0;
-  font-size: 25px;
-  font-family: 'DungGeunMo';
+  text-align: center;
   -webkit-font-smoothing : none;
 }
 
