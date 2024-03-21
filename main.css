@@ -41,6 +41,14 @@ body {
   box-sizing: border-box;
 }
 
+::selection {
+  background: var(--selection-background); color: var(--selection-text);
+}
+
+::-moz-selection {
+  background: var(--selection-background); color: var(--selection-text);
+}
+
 /* below this line is CSS for the layout */
 
 #container {
@@ -55,7 +63,6 @@ body {
 
 #container a {
   color: #ffffff;
-  
 }
 
 #header {
