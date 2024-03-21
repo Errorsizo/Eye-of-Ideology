@@ -24,6 +24,15 @@
   src: url('fonts/Ideology22.woff') format('woff');
 }
 
+#ascii {
+  white-space: pre-wrap;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  color: white;
+  overflow: auto;
+  text-align: left;
+}
 
 body {
   background-color: #000000;
