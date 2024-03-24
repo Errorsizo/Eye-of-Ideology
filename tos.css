@@ -19,6 +19,8 @@
    font-display: swap;
 }
 
+p{line-height:20px}
+  
 @font-face {
   font-family: 'ideology';
   src: url('fonts/Ideology22.woff') format('woff');
@@ -228,6 +230,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   -webkit-font-smoothing : none;
+  
 }
 
 strong {
