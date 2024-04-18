@@ -2,7 +2,7 @@
 
 * {
 	cursor: url('image/Win95Def.png'), default;
-  cursor: url('fork-cursor.png'), pointer;
+  cursor: url('image/Win95DefBlack.png'), pointer;
 }
 
 :root {
