@@ -1,5 +1,9 @@
 /* user styles */
 
+* {
+	cursor: url('image/Pointer.png'), auto;
+}
+
 :root {
   --header-image: url('bflag.png');
 
@@ -73,9 +77,8 @@ body {
   font-style: normal;
   font-weight: 400;
   -webkit-font-smoothing : none;
-  margin: 0;
+  margin: 4;
   text-align: center;
-  /* you can delete the line below if you'd prefer to not use an image */
   color: #dedede;
 }
 
