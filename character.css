@@ -1,10 +1,5 @@
 
 
-#divimage{
-  display: inline-block
-}
-
-
 @font-face {
    font-family: 'DungGeunMo';
    font-weight: normal;
@@ -256,6 +251,13 @@ strong {
   margin-bottom: 10px;
 }
 
+
+#divimage{
+  float: left;
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
 
 
 /* BELOW THIS POINT IS MEDIA QUERY */
