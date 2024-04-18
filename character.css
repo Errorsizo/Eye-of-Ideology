@@ -2,6 +2,7 @@
 
 /** LIGHTBOX MARKUP **/
 
+
 .lightbox {
   /* Default to hidden */
   display: none;
@@ -45,6 +46,9 @@
   --content: #000000;
 }
 
+#divimage{
+  display: inline-block
+}
 
 
 @font-face {
