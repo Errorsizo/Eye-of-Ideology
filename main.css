@@ -1,7 +1,8 @@
 /* user styles */
 
 * {
-	cursor: url('image/Win95Def.png'), auto;
+	cursor: url('image/Win95Def.png'), default;
+  cursor: url('fork-cursor.png'), pointer;
 }
 
 :root {
