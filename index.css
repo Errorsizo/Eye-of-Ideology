@@ -1,3 +1,9 @@
+* {
+	cursor: url('image/Win95Def.png'), default;
+  cursor: url('image/Win95DefBlack.png'), pointer;
+}
+
+
 body{
 	background-color: black;
     margin: 0 auto;
