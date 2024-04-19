@@ -1,3 +1,9 @@
+* {
+	cursor: url('image/Win95Def.png'), default;
+  cursor: url('image/Win95DefBlack.png'), pointer;
+}
+
+
 html,body {
   font-family: sans-serif;
   padding: 0 1em;
