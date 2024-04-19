@@ -1,7 +1,8 @@
 * {
-	cursor: url('image/Win95Def.png'), default;
-  cursor: url('image/Win95DefBlack.png'), pointer;
+	cursor: url('image/Win95Def.png'), auto;
+  cursor: url('image/Win95DefBlack.png'), default;
 }
+
 
 
 html,body {
