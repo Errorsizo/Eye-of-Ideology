@@ -1,5 +1,11 @@
 /* user styles */
 
+* {
+	cursor: url('image/Win95Def.png'), default;
+  cursor: url('image/Win95DefBlack.png'), pointer;
+}
+
+
 :root {
   --header-image: url('bflag.png');
 
