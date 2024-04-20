@@ -5,7 +5,6 @@
   cursor: url('image/Win95DefBlack.png'), pointer;
 }
 
-
 :root {
   --header-image: url('bflag.png');
 
@@ -79,9 +78,8 @@ body {
   font-style: normal;
   font-weight: 400;
   -webkit-font-smoothing : none;
-  margin: 0;
+  margin: 4;
   text-align: center;
-  /* you can delete the line below if you'd prefer to not use an image */
   color: #dedede;
 }
 
@@ -223,11 +221,20 @@ h1 {
   -webkit-font-smoothing : none;
 }
 
-h2,
+h2 {
+  font-family: 'DungGeunMo';
+  font-size: 20px;
+        font-weight: 400;
+  -webkit-font-smoothing : none;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  -webkit-font-smoothing : none;
+}
+
 h3 {
   font-family: 'DungGeunMo';
-  font-size: 23px;
-  font-style: normal;
+  font-size: 15px;
         font-weight: 400;
   -webkit-font-smoothing : none;
   margin: 0;
