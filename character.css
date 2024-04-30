@@ -39,6 +39,7 @@ a:hover {
 .lightbox {
   /* Default to hidden */
   display: none;
+  filter: brightness(1);
 
   /* Overlay entire screen */
   position: fixed;
@@ -71,6 +72,9 @@ a:hover {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.lightbox hover {
+  filter: brightness(0.5);}
 
 @font-face {
   font-family: 'DungGeunMo';
@@ -329,34 +333,4 @@ strong {
  margin: 5px;
  text-align: center;
  display: inline-block;
-}
-
-
-/* BELOW THIS POINT IS MEDIA QUERY */
-
-
-@media only screen and (max-width: 800px) {
- #flex {
-     flex-wrap: wrap;
- }
-
- aside {
-     width: 100%;
- }
-
- main {
-     order: 1;
- }
-
- #leftSidebar {
-     order: 2;
- }
-
- #rightSidebar {
-     order: 3;
- }
-
- #navbar ul {
-     flex-wrap: wrap;
- }
 }
