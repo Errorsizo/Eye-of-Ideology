@@ -299,6 +299,14 @@ h3 {
  -webkit-font-smoothing : none;
 }
 
+a {
+  text-decoration-line: none;
+/*   text-decoration-line: underline; */
+/*   text-decoration-line: overline; */
+/*   text-decoration-line: line-through; */
+/*   text-decoration-line: underline line-through overline; */
+}
+
 strong {
  /* this styles bold text */
  color: #ffffff;
