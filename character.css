@@ -324,7 +324,7 @@ strong {
 }
 
 
-#divimage{
+.divimage{
  width: 100px;
  margin: 5px;
  text-align: center;
