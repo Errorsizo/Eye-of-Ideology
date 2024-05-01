@@ -1,0 +1,39 @@
+*
+{font-family:"Courier New",Times,serif;}
+
+body {
+	background: black;
+	color: #dadada;
+	font-size: 17px;
+  }
+  
+  .line {
+	display: block;
+	line-height: 3em;
+  }
+  
+  .user {
+	color: white;
+	
+	&::before {
+	  content: '[';
+	  display: inline;
+	}
+	
+	&::after {
+	  content: ']';
+	  display: inline;
+	}
+  }
+  
+  .folder {
+	color: rgb(111, 199, 228);
+  }
+  
+  .server {
+	color: rgb(255, 255, 255);
+  }
+  
+  .WTK {
+	color: gold;
+  }
