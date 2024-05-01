@@ -26,14 +26,14 @@ body {
 	}
   }
   
-  .folder {
-	color: rgb(111, 199, 228);
+  .red {
+	color: rgb(255, 0, 0);
   }
   
   .server {
 	color: rgb(255, 255, 255);
   }
   
-  .WTK {
-	color: gold;
+  .h4ck3r {
+	color: rgb(165, 165, 165);
   }
