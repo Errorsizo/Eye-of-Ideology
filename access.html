@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>access page</title>
+</head>
+<body>
+  <div class="div1"> 
+    <div class="div2">
+      
+      
+    <form>
+        <label for="pswd">Enter access code: </label>
+      </br>
+        <input type="password" id="pswd" class="box">
+      </br>
+        <input type="button" value="Submit" onclick="checkPswd();" class="confirm" />
+    </form>
+    </div>
+  </div>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "5D9RX82";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="https://www.speedquizzing.com";
+        window.location="welcome.html";
+        }
+        else{
+            alert("접속코드가 일치하지 않습니다.");
+        }
+    }
+</script>
+</body>
+</html
