@@ -14,15 +14,8 @@
 }
 
 @font-face {
-   font-family: 'DungGeunMo';
-   font-weight: normal;
-   font-style: normal;
-   src: url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.eot');
-   src: url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.eot?#iefix') format('embedded-opentype'),
-       url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.woff2') format('woff2'),
-       url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.woff') format('woff'),
-       url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.ttf') format("truetype");
-   font-display: swap;
+  font-family: 'neodgm';
+  src: url('fonts/neodgm.woff') format('woff');
 }
 
 @font-face {
@@ -74,7 +67,7 @@ pre {
 
 body {
   background-color: #000000;
-  font-family: 'DungGeunMo';
+  font-family: 'neodgm';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
