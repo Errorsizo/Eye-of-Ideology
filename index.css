@@ -1,3 +1,18 @@
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+
 * {
 	cursor: url('image/Win95Def.png'), default;
   cursor: url('image/Win95DefBlack.png'), pointer;
@@ -10,7 +25,7 @@ body{
     padding: 1em 0 1em 0;
 }
 pre {
-    font-family: "DungGeunMo";
+    font-family: "neodgm";
     color: white;
     font-size: 1rem;
     line-height: 1.2;
@@ -22,16 +37,10 @@ pre {
     display: flex;
     justify-content: center;
 }
+
 @font-face {
-    font-family: 'DungGeunMo';
-    font-weight: normal;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/DungGeunMo/DungGeunMo.ttf') format("truetype");
-    font-display: swap;
+  font-family: 'neodgm';
+  src: url('fonts/neodgm.woff') format('woff');
 }
 
 ::selection {
@@ -76,7 +85,7 @@ a:hover{
     nav {
         background-color: grey;
         color: white;
-        font-family: "DungGeunMo";
+        font-family: "neodgm";
         text-align: center;
         width: 100%;
         height: 0 auto;
