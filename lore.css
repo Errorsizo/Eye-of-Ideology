@@ -5,6 +5,7 @@
   cursor: url('image/Win95DefBlack.png'), pointer;
 }
 
+
 :root {
   --header-image: url('bflag.png');
 
@@ -21,7 +22,7 @@
   font-family: 'ideology';
   src: url('fonts/Ideology22.woff') format('woff');
 }
-
+  
 .ascii {
     display: flex;
     justify-content: center;
@@ -71,8 +72,9 @@ body {
   font-style: normal;
   font-weight: 400;
   -webkit-font-smoothing : none;
-  margin: 4;
+  margin: 0;
   text-align: center;
+  /* you can delete the line below if you'd prefer to not use an image */
   color: #dedede;
 }
 
@@ -203,36 +205,27 @@ footer {
 }
 
 h1 {
-  font-family: 'DungGeunMo';
+  font-family: 'neodgm';
   font-size: 20x;
   font-style: normal;
         font-weight: 400;
   -webkit-font-smoothing : none;
-  margin: 30;
+  margin: 0;
   color: #ffffff;
   text-align: center;
   -webkit-font-smoothing : none;
 }
 
-h2 {
-  font-family: 'DungGeunMo';
-  font-size: 20px;
-        font-weight: 400;
-  -webkit-font-smoothing : none;
-  margin: 20;
-  color: #ffffff;
-  text-align: 0;
-  -webkit-font-smoothing : none;
-}
-
+h2,
 h3 {
-  font-family: 'DungGeunMo';
-  font-size: 17px;
+  font-family: 'neodgm';
+  font-size: 23px;
+  font-style: normal;
         font-weight: 400;
   -webkit-font-smoothing : none;
-  margin: 20;
+  margin: 0;
   color: #ffffff;
-  text-align: 0;
+  text-align: center;
   -webkit-font-smoothing : none;
 }
 
